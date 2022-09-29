@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="message" id="print"></div>
+    <nav>
+        <ul>
+            <li>MyTicTacToe</li>
+        </ul>
+    </nav>
+    <div class="gameContainer">
+        <div class="gameInfo">
+            <h1>Welcom to MyTicTacToe</h1>
+            <div>
+                
+                <span class="info "> <span id="turn">Player 0 Turn</span> </span>
+                
+            </div>
+        </div>
+        <div class="container">
+            <input type="text " class="box bt-0 bl-0 " id="b1" onclick="myfunc_3(); myfunc();" readonly>
+            
+            <input type="text" class="box  bt-0" id="b2" onclick="myfunc_4(); myfunc();" readonly>
+            
+            <input type="text" class="box bt-0 br-0" id="b3" onclick="myfunc_5(); myfunc();" readonly>
+            
+            
+            <input type="text" class="box  bl-0" id="b4" onclick="myfunc_6(); myfunc();" readonly>
+            
+            <input type="text" class="box " id="b5" onclick="myfunc_7(); myfunc();" readonly>
+            
+            <input type="text" class="box br-0" id="b6" onclick="myfunc_8(); myfunc();" readonly>
+            
+            
+            <input type="text" class="box bl-0 bb-0 " id="b7" onclick="myfunc_9(); myfunc();" readonly>
+            
+            <input type="text" class="box bb-0" id="b8" onclick="myfunc_10();myfunc();" readonly>
+            
+            <input type="text" class="box br-0 bb-0" id="b9" onclick="myfunc_11();myfunc();" readonly>
+        </div>
+        <div class="img">
+            <!-- <img src="dance-funny.gif" alt=""> -->
+        </div>
+        
+        <div class="btn-" >
+            <button id="but btn " onclick="myfunc_2()">
+                RESET
+            </button>
+        </div>
+    </div>
+    
+    
+    <!-- <div class="result">
+        <div id="result-text"> text</div>
+        <span class="close">
+            X
+            </span>
+    </div> -->
+</body>
+
+
+</html>
